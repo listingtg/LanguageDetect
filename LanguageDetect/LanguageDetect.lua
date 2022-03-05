@@ -21,9 +21,9 @@
 
 --]]
 
-local dbLang = require('data.lang')
-local Parser = require('Parser')
-local ISO639 = require('ISO639')
+local dbLang = require('LanguageDetect.data.lang')
+local Parser = require('LanguageDetect.Parser')
+local ISO639 = require('LanguageDetect.ISO639')
 
 return function(languageType)
   local self = {}
