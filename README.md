@@ -41,7 +41,7 @@ print(detection[1][1]) --> english
   * Any other value results in the full language name
 
 ## Benchmark
-* `LuaJIT 2.1.0-beta3` 1000 items processed in 0.376 secs (466 with a score > 0.2)
+* `LuaJIT 2.1.0-beta3` 1000 items processed in **0.376** secs (466 with a score > 0.2)
 * `Lua 5.1.5` 1000 items processed in 1.235 secs (465 with a score > 0.2)
 * `node.js` 1000 items processed in 1.265 secs (482 with a score > 0.2)
 * `PHP` 1000 items processed in 4.916 secs (535 with a score > 0.2)
