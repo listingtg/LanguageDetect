@@ -14,7 +14,7 @@
  *
  * @author Francois-Guillaume Ribreau - @FGRibreau
  * @author Ruslan Zavackiy - @Chaoser
- * @author github/listingtg/LanguageDetect
+ * @author github.com/listingtg
  *
  * @see https://github.com/listingtg/LanguageDetect
 
