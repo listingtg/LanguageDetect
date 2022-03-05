@@ -1,6 +1,34 @@
 # LanguageDetect
 Lua spoken language detection library using n-gram
 
+## Installation
+
+```
+$ luarocks install languagedetect
+```
+
+## Usage
+
+```
+local LanguageDetect = require('LanguageDetect')
+
+-- change result format:
+-- LanguageDetect.setLanguageType('iso2')
+
+local result = LanguageDetect.detect('This is a test.')
+
+--[[
+result example:
+  {
+    { 'english', 0.5969230769230769 },
+    { 'hungarian', 0.407948717948718 },
+    ...
+  }
+--]]
+
+print(result[1][1]) --> english
+```
+
 ## License
 
 MIT License
