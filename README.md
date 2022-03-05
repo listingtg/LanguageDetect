@@ -9,7 +9,7 @@ $ luarocks install languagedetect
 
 ## Usage
 
-```
+```lua
 local LanguageDetect = require('LanguageDetect')
 
 -- change result format:
