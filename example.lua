@@ -43,5 +43,5 @@ lngDetector.setLanguageType('iso2')
 tprint(lngDetector.detect('This is a test.', 2));
 
 --[[
-  { { 'english', 0.5969230769230769 }, { 'hungarian', 0.407948717948718 }  }
+  { { 'en', 0.5969230769230769 }, { 'hu', 0.407948717948718 }  }
 --]]
