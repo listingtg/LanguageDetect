@@ -14,20 +14,10 @@
  *
  * @author Francois-Guillaume Ribreau - @FGRibreau
  * @author Ruslan Zavackiy - @Chaoser
+ * @author github/listingtg/LanguageDetect
  *
- * @see https://github.com/FGRibreau/node-language-detect
- *
- * Installation:
- *  npm install LanguageDetect
- *
- * @example
- * <code>
- * local LanguageDetect = require("../LanguageDetect");
- * local d = new LanguageDetect().detect('This is a test');
- * // d[1] == 'english'
- * // d[2] == 0.5969230769230769
- * // Good score are over 0.3
- * </code>
+ * @see https://github.com/listingtg/LanguageDetect
+
 
 --]]
 
