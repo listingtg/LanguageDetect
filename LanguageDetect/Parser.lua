@@ -1,4 +1,4 @@
-local dbUnicodeBlocks = require('data.unicode_blocks')
+local dbUnicodeBlocks = require('LanguageDetect.data.unicode_blocks')
 
 --[[
 
