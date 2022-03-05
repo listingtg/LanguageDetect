@@ -1,9 +1,14 @@
 # LanguageDetect
 Lua spoken language detection library using n-gram
 
+`LanguageDetect` is a port of the [PEAR::Text_LanguageDetect](http://pear.php.net/package/Text_LanguageDetect) for [Lua](https://lua.org) and [LuaJIT](https://luajit.org)
+
+LanguageDetect can identify 52 human languages from text samples and return confidence scores for each.
+
 ## Installation
 
-```
+This package can be installed via [LuaRocks](https://luarocks.org/) as follows
+```shell
 $ luarocks install languagedetect
 ```
 
@@ -28,6 +33,19 @@ result example:
 
 print(result[1][1]) --> english
 ```
+
+## API
+* `detect(sample, limit)` Detects the closeness of a sample of text to the known languages
+* `getLanguages()` Returns the list of detectable languages
+* `getLanguageCount()` Returns the number of languages that the lib can detect
+* `setLanguageType(format)` Sets the language format to be used. Suported values:
+  * `iso2`, resulting in two letter language format
+  * `iso3`, resulting in three letter language format
+  * Any other value results in the full language name
+
+## Credits
+Nicholas Pisarro for his work on [PEAR::Text_LanguageDetect](https://pear.php.net/package/Text_LanguageDetect)
+Francois-Guillaume Ribreau and Ruslan Zavackiy for their work on [node-language-detect](https://github.com/FGRibreau/node-language-detect)
 
 ## License
 
