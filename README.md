@@ -1,7 +1,7 @@
 # LanguageDetect
 Lua spoken language detection library using n-gram
 
-`LanguageDetect` is a port of the [PEAR::Text_LanguageDetect](http://pear.php.net/package/Text_LanguageDetect) for [Lua](https://lua.org) and [LuaJIT](https://luajit.org)
+`LanguageDetect` is a port of the [PEAR::Text_LanguageDetect](https://pear.php.net/package/Text_LanguageDetect) for [Lua](https://lua.org) and [LuaJIT](https://luajit.org)
 
 LanguageDetect can identify 52 human languages from text samples and return confidence scores for each.
 
