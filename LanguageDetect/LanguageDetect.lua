@@ -12,9 +12,9 @@
  * Largely inspired from the PHP Pear Package Text_LanguageDetect by Nicholas Pisarro
  * Licence: http://www.debian.org/misc/bsd.license BSD
  *
+ * @author github.com/listingtg
  * @author Francois-Guillaume Ribreau - @FGRibreau
  * @author Ruslan Zavackiy - @Chaoser
- * @author github.com/listingtg
  *
  * @see https://github.com/listingtg/LanguageDetect
 
