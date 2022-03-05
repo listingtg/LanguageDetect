@@ -17,13 +17,10 @@ $ luarocks install languagedetect
 ```lua
 local LanguageDetect = require('LanguageDetect')
 
--- change result format:
--- LanguageDetect.setLanguageType('iso2')
-
-local result = LanguageDetect.detect('This is a test.')
+local detection = LanguageDetect.detect('This is a test.')
 
 --[[
-result example:
+detection example:
   {
     { 'english', 0.5969230769230769 },
     { 'hungarian', 0.407948717948718 },
@@ -31,7 +28,7 @@ result example:
   }
 --]]
 
-print(result[1][1]) --> english
+print(detection[1][1]) --> english
 ```
 
 ## API
