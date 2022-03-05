@@ -45,6 +45,7 @@ print(result[1][1]) --> english
 
 ## Credits
 Nicholas Pisarro for his work on [PEAR::Text_LanguageDetect](https://pear.php.net/package/Text_LanguageDetect)
+
 Francois-Guillaume Ribreau and Ruslan Zavackiy for their work on [node-language-detect](https://github.com/FGRibreau/node-language-detect)
 
 ## License
