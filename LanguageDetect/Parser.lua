@@ -364,9 +364,10 @@ return function (str)
 
     -- if the values are the same, break ties using the key
     if aValue == bValue then
-      local ts = {aKey, bKey}
-      table.sort(ts)
-      return ts[2] == aKey --and -1 or 1
+      --local ts = {aKey, bKey}
+      --table.sort(ts)
+      --return ts[2] == aKey --and -1 or 1
+      return bKey > aKey --and -1 or 1
     else 
       return (aValue > bValue) --and -1 or 1
     end
